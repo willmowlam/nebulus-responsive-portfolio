@@ -67,6 +67,36 @@ main .content-block {
   width: 66%;
 }
 
+
+/* Portfolio */
+#portfolioGrid {
+  display: grid;
+  grid-template-areas: 
+    "featuredPortfolioItem featuredPortfolioItem"
+    "firstPortfolioItem secondPortfolioItem"
+    "thirdPortfolioItem fourthPortfolioItem";    
+}
+
+#featuredPortfolioItem {
+  grid-area: featuredPortfolioItem;
+}
+
+#firstPortfolioItem {
+  grid-area: firstPortfolioItem;
+}
+
+#secondPortfolioItem {
+  grid-area: secondPortfolioItem;
+}
+
+#thirdPortfolioItem {
+  grid-area: thirdPortfolioItem;
+}
+
+#fourthPortfolioItem {
+  grid-area: fourthPortfolioItem;
+}
+
 /* Contact */
 #contact ul {
   padding: 0;
@@ -75,3 +105,4 @@ main .content-block {
 #contact li{
   display: inline-block;
 }
+
