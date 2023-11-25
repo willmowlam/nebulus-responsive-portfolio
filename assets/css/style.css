@@ -79,22 +79,43 @@ main .content-block {
 
 #featuredPortfolioItem {
   grid-area: featuredPortfolioItem;
+  background-image: url("../images/02-portfolio-4.jpg");
+  min-height: 50vh;
 }
 
 #firstPortfolioItem {
   grid-area: firstPortfolioItem;
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 
 #secondPortfolioItem {
   grid-area: secondPortfolioItem;
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 
 #thirdPortfolioItem {
   grid-area: thirdPortfolioItem;
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #fourthPortfolioItem {
   grid-area: fourthPortfolioItem;
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
+#firstPortfolioItem,
+#secondPortfolioItem,
+#thirdPortfolioItem,
+#fourthPortfolioItem {
+  min-height: 25vh;
+}
+
+.portfolioGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  align-content: end;
 }
 
 /* Contact */
