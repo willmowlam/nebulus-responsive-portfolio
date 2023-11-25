@@ -21,3 +21,31 @@ h6 {
 p {
   margin: 0;
 }
+
+/* Body Children */
+header,
+.hero-banner,
+main {
+  margin: 0 5%;
+}
+
+/* Header and Nav */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  width: 33%;
+}
+
+header nav {
+  width: 66%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline-block;
+
+}
