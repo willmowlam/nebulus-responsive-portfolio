@@ -49,3 +49,29 @@ nav li {
   display: inline-block;
 
 }
+
+/* Main Layout */
+#about,
+#work,
+#contact {
+  display: flex;
+}
+
+#about h2,
+#work h2,
+#contact h2 {
+  width: 33%;
+}
+
+main .content-block {
+  width: 66%;
+}
+
+/* Contact */
+#contact ul {
+  padding: 0;
+}
+
+#contact li{
+  display: inline-block;
+}
