@@ -1,5 +1,11 @@
 :root{
     --primary-color: aquamarine;
+    --secondary-color: rgb(18, 11, 78);
+    font-size: 16px;
+}
+
+body{
+  color: var(--secondary-color);
 }
 
 /* Body Children */
@@ -34,10 +40,7 @@ nav li {
   margin:0 0.2rem;
 }
 
-nav a:link,
-nav a:visited,
-nav a:hover,
-nav a:active{
+nav a {
   color: var(--primary-color);
   text-decoration: none;
   padding:0 0.6rem;
@@ -119,9 +122,17 @@ main .content-block {
 /* Contact */
 #contact ul {
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 #contact li{
   display: inline-block;
+
 }
 
+#contact a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  border-bottom: 2px solid var(--secondary-color);
+}
