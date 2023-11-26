@@ -23,16 +23,19 @@ p {
 }
 
 /* Body Children */
-header,
-.hero-banner,
+.container,
 main {
   margin: 0 5%;
 }
 
 /* Header and Nav */
-header {
+header .container{
   display: flex;
   justify-content: space-between;
+}
+header {
+  background-color: darkgray;
+  color:aquamarine;
 }
 
 header h1 {
@@ -67,6 +70,10 @@ main .content-block {
   width: 66%;
 }
 
+/* Hero */
+.hero-banner{
+  background-image: url("../images/02-hero-bg.jpg");
+}
 
 /* Portfolio */
 #portfolioGrid {
