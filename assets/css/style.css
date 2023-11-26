@@ -75,7 +75,8 @@ main .content-block {
   grid-template-areas: 
     "featuredPortfolioItem featuredPortfolioItem"
     "firstPortfolioItem secondPortfolioItem"
-    "thirdPortfolioItem fourthPortfolioItem";    
+    "thirdPortfolioItem fourthPortfolioItem";
+  gap: 10px;
 }
 
 #featuredPortfolioItem {
@@ -108,7 +109,7 @@ main .content-block {
 #secondPortfolioItem,
 #thirdPortfolioItem,
 #fourthPortfolioItem {
-  min-height: 25vh;
+  min-height: 20vh;
 }
 
 .portfolioGridArea {
@@ -117,6 +118,15 @@ main .content-block {
   background-repeat: no-repeat;
   display: grid;
   align-content: end;
+  justify-content: flex-start;
+  border: 5px solid var(--primary-color);
+  cursor: pointer;
+}
+
+.portfolioMeta {
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Contact */
