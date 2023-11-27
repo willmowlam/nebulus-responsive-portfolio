@@ -86,7 +86,7 @@ main .content-block {
   align-items: flex-end;
 }
 
-.heroMeta {
+.hero-meta {
   background-color: var(--primary-color);
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -95,49 +95,49 @@ main .content-block {
 }
 
 /* Portfolio */
-#portfolioGrid {
+#portfolio-grid {
   display: grid;
   grid-template-areas: 
-    "featuredPortfolioItem featuredPortfolioItem"
-    "firstPortfolioItem secondPortfolioItem"
-    "thirdPortfolioItem fourthPortfolioItem";
+    "featured-portfolio-item featured-portfolio-item"
+    "first-portfolio-item second-portfolio-item"
+    "third-portfolio-item fourth-portfolio-item";
   gap: 10px;
 }
 
-#featuredPortfolioItem {
-  grid-area: featuredPortfolioItem;
+#featured-portfolio-item {
+  grid-area: featured-portfolio-item;
   background-image: url("../images/02-portfolio-4.jpg");
   min-height: 50vh;
 }
 
-#firstPortfolioItem {
-  grid-area: firstPortfolioItem;
+#first-portfolio-item {
+  grid-area: first-portfolio-item;
   background-image: url("../images/02-portfolio-1.jpg");
 }
 
-#secondPortfolioItem {
-  grid-area: secondPortfolioItem;
+#second-portfolio-item {
+  grid-area: second-portfolio-item;
   background-image: url("../images/02-portfolio-2.jpg");
 }
 
-#thirdPortfolioItem {
-  grid-area: thirdPortfolioItem;
+#third-portfolio-item {
+  grid-area: third-portfolio-item;
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
-#fourthPortfolioItem {
-  grid-area: fourthPortfolioItem;
+#fourth-portfolio-item {
+  grid-area: fourth-portfolio-item;
   background-image: url("../images/02-run-buddy.jpg");
 }  
 
-#firstPortfolioItem,
-#secondPortfolioItem,
-#thirdPortfolioItem,
-#fourthPortfolioItem {
+#first-portfolio-item,
+#second-portfolio-item,
+#third-portfolio-item,
+#fourth-portfolio-item {
   min-height: 20vh;
 }
 
-.portfolioGridArea {
+.portfolio-grid-area {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,11 +163,11 @@ main .content-block {
   transition: opacity 0.5s;
 }
 
-.portfolioGridArea:hover::before {
+.portfolio-grid-area:hover::before {
   opacity: 0; /* clear the overlay */
 }
 
-.portfolioMeta {
+.portfolio-meta {
   background-color: var(--primary-color);
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -225,13 +225,13 @@ main .content-block {
   }
 
   /* Stack all portfolio items */
-  #portfolioGrid {
+  #portfolio-grid {
     grid-template-areas: 
-      "featuredPortfolioItem featuredPortfolioItem"
-      "firstPortfolioItem firstPortfolioItem"
-      "secondPortfolioItem secondPortfolioItem"
-      "thirdPortfolioItem thirdPortfolioItem"
-      "fourthPortfolioItem fourthPortfolioItem";
+      "featured-portfolio-item featured-portfolio-item"
+      "first-portfolio-item first-portfolio-item"
+      "second-portfolio-item second-portfolio-item"
+      "third-portfolio-item third-portfolio-item"
+      "fourth-portfolio-item fourth-portfolio-item";
   }
 
 }
