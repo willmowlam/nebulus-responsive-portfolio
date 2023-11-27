@@ -72,6 +72,7 @@ main .content-block {
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative; /* contain the overlay */
 }
 
 .hero-banner,
@@ -90,6 +91,7 @@ main .content-block {
   padding: 0.5rem;
   margin-bottom: 1rem;
   margin-right: 8px;
+  z-index: 100; /* keep above the overlay */
 }
 
 /* Portfolio */
@@ -144,11 +146,11 @@ main .content-block {
   justify-content: flex-start;
   border: 5px solid var(--primary-color);
   cursor: pointer;
-  position: relative;
+  position: relative; /* contain the overlay */
   background-size: cover;
 }
 
-.portfolioGridArea::before {
+.overlay::before {
   content: "";
   position: absolute;
   top: 0;
@@ -162,7 +164,7 @@ main .content-block {
 }
 
 .portfolioGridArea:hover::before {
-  opacity: 0; 
+  opacity: 0; /* clear the overlay */
 }
 
 .portfolioMeta {
@@ -170,7 +172,7 @@ main .content-block {
   padding: 0.5rem;
   margin-bottom: 1rem;
   pointer-events: none;
-  z-index: 100;
+  z-index: 100; /* keep above the overlay */
 }
 
 /* Contact */
