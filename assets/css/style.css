@@ -97,6 +97,8 @@ main .content-block {
 /* Portfolio */
 #portfolio-grid {
   display: grid;
+  grid-template-rows: 50vh 20vh 20vh;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas: 
     "featured-portfolio-item featured-portfolio-item"
     "first-portfolio-item second-portfolio-item"
@@ -107,7 +109,6 @@ main .content-block {
 #featured-portfolio-item {
   grid-area: featured-portfolio-item;
   background-image: url("../images/02-portfolio-4.jpg");
-  min-height: 50vh;
 }
 
 #first-portfolio-item {
@@ -129,13 +130,6 @@ main .content-block {
   grid-area: fourth-portfolio-item;
   background-image: url("../images/02-run-buddy.jpg");
 }  
-
-#first-portfolio-item,
-#second-portfolio-item,
-#third-portfolio-item,
-#fourth-portfolio-item {
-  min-height: 20vh;
-}
 
 .portfolio-grid-area {
   background-position: center;
@@ -226,12 +220,14 @@ main .content-block {
 
   /* Stack all portfolio items */
   #portfolio-grid {
+    grid-template-rows: 50vh 20vh 20vh 20vh 20vh;
+    grid-template-columns: 100%;
     grid-template-areas: 
-      "featured-portfolio-item featured-portfolio-item"
-      "first-portfolio-item first-portfolio-item"
-      "second-portfolio-item second-portfolio-item"
-      "third-portfolio-item third-portfolio-item"
-      "fourth-portfolio-item fourth-portfolio-item";
+      "featured-portfolio-item"
+      "first-portfolio-item"
+      "second-portfolio-item"
+      "third-portfolio-item"
+      "fourth-portfolio-item";
   }
 
 }
