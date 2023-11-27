@@ -194,7 +194,7 @@ main .content-block {
 }
 
 /* Large Screen */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 768px) {
   #about h2,
   #work h2,
   #contact h2{
@@ -204,7 +204,7 @@ main .content-block {
 }
 
 /* Small Screen */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   #about, 
   #work, 
   #contact {
@@ -223,4 +223,15 @@ main .content-block {
   #contact h2{
     text-align: left;
   }
+
+  /* Stack all portfolio items */
+  #portfolioGrid {
+    grid-template-areas: 
+      "featuredPortfolioItem featuredPortfolioItem"
+      "firstPortfolioItem firstPortfolioItem"
+      "secondPortfolioItem secondPortfolioItem"
+      "thirdPortfolioItem thirdPortfolioItem"
+      "fourthPortfolioItem fourthPortfolioItem";
+  }
+
 }
