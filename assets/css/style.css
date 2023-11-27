@@ -53,6 +53,8 @@ nav a {
 #work,
 #contact {
   display: flex;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 #about h2,
@@ -187,4 +189,36 @@ main .content-block {
   color: var(--secondary-color);
   text-decoration: none;
   border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Large Screen */
+@media only screen and (min-width: 601px) {
+  #about h2,
+  #work h2,
+  #contact h2{
+    text-align: right;
+    padding-right: 50px;
+  }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 600px) {
+  #about, 
+  #work, 
+  #contact {
+    display: flow;
+  }
+
+  main .content-block,
+  #about h2,
+  #work h2,
+  #contact h2 {
+    width: 100%;
+  }
+
+  #about h2,
+  #work h2,
+  #contact h2{
+    text-align: left;
+  }
 }
