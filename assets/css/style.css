@@ -103,7 +103,7 @@ main .content-block {
 #fourthPortfolioItem {
   grid-area: fourthPortfolioItem;
   background-image: url("../images/02-run-buddy.jpg");
-}
+}  
 
 #firstPortfolioItem,
 #secondPortfolioItem,
@@ -121,12 +121,33 @@ main .content-block {
   justify-content: flex-start;
   border: 5px solid var(--primary-color);
   cursor: pointer;
+  position: relative;
+  background-size: cover;
+}
+
+.portfolioGridArea::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.33;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+.portfolioGridArea:hover::before {
+  opacity: 0; 
 }
 
 .portfolioMeta {
   background-color: var(--primary-color);
   padding: 0.5rem;
   margin-bottom: 1rem;
+  pointer-events: none;
+  z-index: 100;
 }
 
 /* Contact */
