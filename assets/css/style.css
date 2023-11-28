@@ -25,6 +25,11 @@ header {
   color: var(--primary-color);
 }
 
+header .selfie {
+  max-height: 50px;
+  border-radius: 25px;
+  margin:auto;
+}
 header h1 {
   width: 33%;
   font-family: 'Amiko', sans-serif;
@@ -257,6 +262,14 @@ main .content-block {
     text-align: center;
   }
   header nav {
+    padding-left: 0px;
+  }
+
+  header .selfie {
+    margin-top: 1vh;
+  }
+
+  header nav ul {
     padding-left: 0px;
   }
 
