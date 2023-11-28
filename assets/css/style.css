@@ -243,4 +243,17 @@ main .content-block {
     margin: auto;
   }
 
+  /* drop menu down and center */
+  header .container {
+    flex-wrap: wrap;
+  }
+  header nav {
+    width: 100%;
+    justify-content: center;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
 }
