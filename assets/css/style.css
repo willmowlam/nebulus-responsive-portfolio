@@ -28,6 +28,7 @@ header {
 header h1 {
   width: 33%;
   font-family: 'Amiko', sans-serif;
+  margin: auto;
 }
 
 header nav {
