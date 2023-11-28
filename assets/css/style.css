@@ -143,6 +143,8 @@ main .content-block {
   cursor: pointer;
   position: relative; /* contain the overlay */
   background-size: cover;
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 .overlay::before {
