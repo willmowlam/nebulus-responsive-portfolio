@@ -1,5 +1,5 @@
 :root{
-    --primary-color: aquamarine;
+    --primary-color: rgb(245,245,245);
     --secondary-color: rgb(18, 11, 78);
     font-size: 16px;
 }
@@ -21,7 +21,7 @@ header .container{
 }
 
 header {
-  background-color:gray;
+  background-color:var(--secondary-color);
   color: var(--primary-color);
 }
 
@@ -60,11 +60,11 @@ nav a {
 #about h2,
 #work h2,
 #contact h2 {
-  width: 33%;
+  width: 25%;
 }
 
 main .content-block {
-  width: 66%;
+  width: 75%;
 }
 
 /* Hero */
