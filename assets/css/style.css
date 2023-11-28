@@ -256,5 +256,8 @@ main .content-block {
     width: 100%;
     text-align: center;
   }
+  header nav {
+    padding-left: 0px;
+  }
 
 }
