@@ -27,6 +27,7 @@ header {
 
 header h1 {
   width: 33%;
+  font-family: 'Amiko', sans-serif;
 }
 
 header nav {
@@ -108,31 +109,31 @@ main .content-block {
 
 #featured-portfolio-item {
   grid-area: featured-portfolio-item;
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("../images/work/school-aid-sa.png");
 }
 
 #first-portfolio-item {
   grid-area: first-portfolio-item;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/work/school-aid-2019.png");
 }
 
 #second-portfolio-item {
   grid-area: second-portfolio-item;
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("../images/work/kolvin-psych.png");
 }
 
 #third-portfolio-item {
   grid-area: third-portfolio-item;
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("../images/work/second-spring.png");
 }
 
 #fourth-portfolio-item {
   grid-area: fourth-portfolio-item;
-  background-image: url("../images/02-run-buddy.jpg");
+  background-image: url("../images/work/vallecoppa.png");
 }  
 
 .portfolio-grid-area {
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
@@ -235,7 +236,7 @@ main .content-block {
     justify-content: center;
     align-items: center;
   }
-  
+
   .hero-meta {
     margin: auto;
   }
