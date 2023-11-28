@@ -97,7 +97,7 @@ main .content-block {
 /* Portfolio */
 #portfolio-grid {
   display: grid;
-  grid-template-rows: 50vh 20vh 20vh;
+  grid-template-rows: 50vh 25vh 25vh;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
     "featured-portfolio-item featured-portfolio-item"
@@ -220,7 +220,7 @@ main .content-block {
 
   /* Stack all portfolio items */
   #portfolio-grid {
-    grid-template-rows: 50vh 20vh 20vh 20vh 20vh;
+    grid-template-rows: 50vh 25vh 25vh 25vh 25vh;
     grid-template-columns: 100%;
     grid-template-areas: 
       "featured-portfolio-item"
@@ -228,6 +228,16 @@ main .content-block {
       "second-portfolio-item"
       "third-portfolio-item"
       "fourth-portfolio-item";
+  }
+
+  /* center the hero message */
+  .hero-banner .container {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-meta {
+    margin: auto;
   }
 
 }
