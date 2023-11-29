@@ -193,6 +193,7 @@ main .content-block {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  margin-top: 0.5rem;
 }
 
 #contact li{
