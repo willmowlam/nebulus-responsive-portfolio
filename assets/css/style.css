@@ -1,6 +1,7 @@
 :root{
     --primary-color: rgb(245,245,245);
     --secondary-color: rgb(18, 11, 78);
+    --tertiary-color: orange;
     font-size: 16px;
 }
 
@@ -49,7 +50,7 @@ nav li {
 }
 
 nav li:hover {
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid var(--tertiary-color);
 }
 
 nav a {
@@ -201,7 +202,7 @@ main .content-block {
 }
 
 #contact a:hover {
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid var(--tertiary-color);
 }
 
 /* Content Links */
@@ -209,6 +210,10 @@ p a {
   font-weight: bold;
   color: var(--secondary-color);
   text-decoration: none;
+}
+
+p a:hover {
+  border-bottom: 2px solid var(--tertiary-color);
 }
 
 /* Large Screen */
