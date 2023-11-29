@@ -204,6 +204,13 @@ main .content-block {
   border-bottom: 2px solid orange;
 }
 
+/* Content Links */
+p a {
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 /* Large Screen */
 @media only screen and (min-width: 768px) {
   #about h2,
