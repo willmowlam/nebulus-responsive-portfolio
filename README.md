@@ -2,7 +2,7 @@
 
 Responsive portfolio of my work, deployed at:
 
-https://willmowlam.github.io/responsive-portfolio/
+https://willmowlam.github.io/nebulus-responsive-portfolio/
 
 ![portfolio demo](./assets/images/screenshot.png)
 
